@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Bonus Assignment
+   Tutorial Case
+
+   General Style Sheet
+   Author: Shalil Joseph Dsilva
+   Student id: 0810045
+   Date: 2022-07-22  
+
+   Filename: sd_style.css
+
+*/
+
+/* HTML and Body styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    margin: 0 0 100px;
+    padding: 20px 50px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #041a18c8;;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+    word-spacing: 2px;
+}
+
+footer a {
+    color: white;
+}
+
+a:hover {
+    color: #F06000 !important;
+    transition: 1s;
+}

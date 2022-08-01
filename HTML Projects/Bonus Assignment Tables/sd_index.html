@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+      New Perspectives on HTML5 and CSS3, 8th Edition
+      Bonus Assignment
+      Tutorial Case
+
+      Web page containing a ‘unique’ HTML Table
+      Author: Shalil Joseph Dsilva
+      Student id: 0810045
+      Date: 2022-07-22
+
+      Filename: sd_index.html
+
+   -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 TV Shows</title>
+    <link href="css/sd_table.css" rel="stylesheet" />
+    <link href="css/sd_style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Top 5 TV Shows according to me.</h1>
+    </header>
+
+    <!-- Table -->
+    <table>
+        <caption>
+            Data & Image source: <a href="https://www.imdb.com" target="_blank">IMDB
+        </caption>
+        
+        <thead>
+            <tr>
+                <th>Sr.No.</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>Ratings</th>
+                <th class="genre">Genre</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>Game Of Thrones</td>
+                <td>Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns
+                    after being dormant for millennia.</td>
+                <td><img src="images/got.jpg" alt="game of thrones" class="image" /></td>
+                <td class="ratings">9.2</td>
+                <td>&#8226; Action<br /> &#8226; Adventure<br /> &#8226; Drama</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>The Walking Dead</td>
+                <td>Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins and must lead a
+                    group
+                    of survivors to stay alive.</td>
+                <td><img src="images/twd.jpg" alt="the walking dead" class="image" /></td>
+                <td class="ratings">8.2</td>
+                <td>&#8226; Drama<br /> &#8226; Horror<br /> &#8226; Thriller</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>Breaking Bad</td>
+                <td>A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and
+                    selling methamphetamine in order to secure his family's future.</td>
+                <td><img src="images/bb.jpg" alt="breaking bad" class="image" /></td>
+                <td class="ratings">9.5</td>
+                <td>&#8226; Crime<br /> &#8226; Drama<br /> &#8226; Thriller</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>Shameless</td>
+                <td>A scrappy, feisty, fiercely loyal Chicago family makes no apologies.</td>
+                <td><img src="images/shameless.jpg" alt="shameless" class="image" /></td>
+                <td class="ratings">8.6</td>
+                <td rowspan="2">&#8226; Comedy<br /> &#8226; Drama</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>Schitt's Creek</td>
+                <td>After being a victim of fraud, Johnny Rose and his family go from extremely wealthy to penniless
+                    overnight. The only asset left to them is a small, unsophisticated town: Schitt's Creek. They
+                    relocate there. Culture shock ensues.</td>
+                <td><img src="images/schittsCreek.jpg" alt="schitt's creek" class="image" /></td>
+                <td class="ratings">8.5</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="6" style="text-align: center; word-spacing: 2px;">Not happy with my top 5. Then
+                    Definetly check IMDB's <a href="https://www.imdb.com/chart/toptv" target="_blank">Top Rated TV
+                        Shows</a></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2022 - <a href="https://www.stclaircollege.ca" target="_blank">St Clair College</a> &#8226; Programmed By
+        Shalil Joseph Dsilva
+        &#8226; 0810045
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Bonus Assignment
+   Tutorial Case
+
+   Table Style Sheet
+   Author: Shalil Joseph Dsilva
+   Student id: 0810045
+   Date: 2022-07-22  
+
+   Filename: sd_table.css
+
+*/
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Table Cells Styles */
+table th,
+table td {
+    border: 1px solid #041a18c8;
+    padding: 15px;
+    background-color: #0c413db1;
+    color: #fff;
+}
+
+td:hover {
+    background-color: #062524c8;
+}
+
+/* Table Caption Styles */
+caption {
+    caption-side: bottom;
+    text-align: right;
+}
+
+caption a {
+    color: black;
+}
+
+/* Row Group Styles */
+table thead th {
+    background-color: #041a18c8;
+
+}
+
+/* Coloumn Group Styles */
+.image {
+    width: 120px;
+    height: 130px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.ratings {
+    text-align: center;
+}
+
+.genre {
+    width: 110px;
+}
+
+/* Table Footer Styles */
+table tfoot {
+    background-color: #041a18c8;
+    color: white;
+}
+
+table tfoot a {
+    color: white;
+
+}
