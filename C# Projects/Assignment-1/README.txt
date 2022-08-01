@@ -1,5 +1,7 @@
 2022-06-04:
 
+Program purpose: To develop a program which prints customer's bill according to the inputs of customer.
+
 Welcome to Griff's Great Coffee code
 
 This program is written in dynamic manner
